@@ -1,7 +1,13 @@
 package aula.JavaFx;
 
+import solucaofrase.Frase;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+
+        Frase.encontrarMaiorFrase("O rato roeu a roupa do rei de roma");
+        Frase.encontrarMaiorFrase("A jornada de mil milhas começa com um único passo.");
+        Frase.encontrarMaiorFrase("Seja forte e corajoso");
+
     }
 }
